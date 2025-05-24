@@ -1,6 +1,6 @@
-# Stack Docs
+# PhiRecorder Docs
 
-Documentation for the Hugo Theme Stack. Powered by VitePress.
+由HLMC离开等人基于**prpr**项目开发的渲染器的说明文档。
 
 ```bash
 pnpm install
@@ -12,4 +12,4 @@ pnpm run docs:build
 
 Documentation is licensed under the MIT License.
 
-Logo designed by Jimmy Cai, all rights reserved.
+PhiRecorder Team, all rights reserved.
