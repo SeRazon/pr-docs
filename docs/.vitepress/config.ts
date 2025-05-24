@@ -51,11 +51,6 @@ export default defineConfig({
 
         outline: [2, 3],
 
-        carbonAds: {
-            code: 'CEAIE27W',
-            placement: 'stackjimmycaicom'
-        },
-
         algolia: {
             appId: '6OC1XCG4R5',
             apiKey: '7779946cc768ec3699123e60a91d0ddc',
