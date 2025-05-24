@@ -2,7 +2,7 @@
 
 # Phigros Recorder 介绍
 
-![Phi Recorder Banner](https://github.com/SeRazon/pr-docs/edit/master/arts/banner.png)
+![Phi Recorder Banner](https://raw.githubusercontent.com/SeRazon/pr-docs/refs/heads/master/arts/banner.png)
 
 快 简 轻 便  
 Fast Simple Lightweight Convenient
