@@ -67,7 +67,7 @@ export default defineConfig({
 function sidebarGuide() {
     return [
         {
-            text: 'Introduction',
+            text: '介绍',
             collapsible: true,
             items: [
                 { text: '关于 Phi Recorder', link: '/guide/' },
