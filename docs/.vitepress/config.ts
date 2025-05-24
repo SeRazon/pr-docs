@@ -1,9 +1,9 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-    lang: 'en-US',
-    title: 'Stack',
-    description: 'Card-style Hugo theme designed for bloggers',
+    lang: 'zh-cn',
+    title: 'Phi Recorder',
+    description: '你的下一个渲染器，何必是渲染器。',
     lastUpdated: true,
 
     head: [
