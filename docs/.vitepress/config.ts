@@ -70,12 +70,12 @@ function sidebarGuide() {
             text: 'Introduction',
             collapsible: true,
             items: [
-                { text: 'About Stack', link: '/guide/' },
-                { text: 'Getting Started', link: '/guide/getting-started' },
-                { text: 'Modify Theme', link: '/guide/modify-theme' }
+                { text: '关于 Phi Recorder', link: '/guide/' },
+                //{ text: 'Getting Started', link: '/guide/getting-started' },
+               // { text: 'Modify Theme', link: '/guide/modify-theme' }
             ]
         },
-        {
+        /*{
             text: 'Writing',
             collapsible: true,
             items: [
@@ -150,7 +150,7 @@ function sidebarGuide() {
                     text: 'Image Processing',
                     link: '/config/image-processing'
                 }
-            ]
+            ]*/
         },
     ]
 }
