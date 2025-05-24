@@ -8,13 +8,10 @@ export default defineConfig({
 
     head: [
         ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
-        ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' }],
-        ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' }],
         ['link', { rel: 'manifest', href: '/site.webmanifest' }],
         ['link', { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#5bbad5' }],
         ['meta', { name: 'msapplication-TileColor', content: '#00aba9' }],
         ['meta', { name: 'theme-color', content: '#ffffff' }],
-        ['script', { defer: "true", "data-domain": "stack.jimmycai.com", src: 'https://stat.jimmycai.com/js/include.js' }],
     ],
 
     markdown: {
@@ -28,8 +25,8 @@ export default defineConfig({
         logo: '/logo.png',
 
         footer: {
-            message: "Documentation released under the MIT License, logo designed by Jimmy Cai, all rights reserved.",
-            copyright: "Copyright © 2020 - Present Jimmy Cai",
+            message: "Documentation released under the MIT License, all rights reserved.",
+            copyright: "Copyright © 2025 - Present Phi Recorder Team",
         },
 
         sidebar: {
@@ -44,11 +41,11 @@ export default defineConfig({
         ],
 
         socialLinks: [
-            { icon: 'github', link: 'https://github.com/CaiJimmy/hugo-theme-stack' }
+            { icon: 'github', link: 'https://github.com/2278535805/Phi-Recorder' }
         ],
 
         editLink: {
-            pattern: 'https://github.com/CaiJimmy/stack-docs/edit/master/docs/:path',
+            pattern: 'https://github.com/SeRazon/pr-docs/edit/master/docs/:path',
             text: 'Edit this page on GitHub'
         },
 
