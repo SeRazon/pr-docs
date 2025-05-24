@@ -8,8 +8,8 @@ export default {
 
         router.onAfterRouteChanged = () => {
             oldOnAfterRouteChanged && oldOnAfterRouteChanged();
-            if (typeof _carbonads !== 'undefined')
-                _carbonads.refresh();
+            //if (typeof _carbonads !== 'undefined')
+                //_carbonads.refresh();
         }
     }
 }
