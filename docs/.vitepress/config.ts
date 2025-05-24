@@ -150,7 +150,7 @@ function sidebarGuide() {
                     text: 'Image Processing',
                     link: '/config/image-processing'
                 }
-            ]*/
-        },
+            ]
+        },*/
     ]
 }
