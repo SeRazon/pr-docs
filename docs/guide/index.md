@@ -1,54 +1,41 @@
-# Welcome
+# 欢迎！
 
-Stack is a simple card-style Hugo theme designed for Bloggers. Here are some of the features:
+# Phigros Recorder 介绍
 
-* Responsive images support
-* Lazy load images
-* Dark mode
-* Local search
-* [PhotoSwipe](https://photoswipe.com/) integration
-* Archive page template
-* Full native JavaScript, no jQuery or any other frameworks are used
-* No CSS framework, keep it simple and minimal
-* Properly cropped thumbnails
-* Subsection support
-* Table of contents
+![Phi Recorder Banner](arts/banner.png)
 
-## Copyright
+快 简 轻 便  
+Fast Simple Lightweight Convenient
 
-**Licensed under the GNU General Public License v3.0**
 
-Please do not remove the "*Theme Stack designed by Jimmy*" text and link.
+## Installation 安装
 
-If you want to port this theme to another blogging platform, please let me know🙏.
+Check [Releases](https://github.com/2278535805/phigros-recorder/releases)
 
-## Sponsoring
+## build 构建
 
-If you like this theme, give it a star, and consider supporting its development:
+```bash
+pnpm install
+cargo tauri build
+```
 
-<iframe src="https://github.com/sponsors/CaiJimmy/button" title="Sponsor CaiJimmy" height="35" width="116" style="border: 0;"></iframe>
+## 功能 / Features
 
-<a href='https://ko-fi.com/C0C530AXX' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+- 参数解析 / Arguments parse  
+  执行 `--help` 获取详细信息 / Run `--help` to get more information  
+  示例 / Example:  
+  - `phi-recorder --render E:\Phi\Chronostasis.pez --config "{\"fps\": 30, \"resolution\": [1280, 720]}" --output E:\Phi\`
+  - `phi-recorder --render E:\Phi\Chronostasis.pez --config E:\config.toml --output E:\Phi\`
 
-Your support is greatly appreciated :)
+- 谱面揭秘 / Chart Revealed  
+  - 谱面缩放 / Chart Scale
+  - 谱面调试 / Chart Debug
 
-## Thanks to
+---
 
-| Project                                                          | Licence                                                                      |
-| ---------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| [PhotoSwipe](https://photoswipe.com/)                            | [MIT](https://github.com/dimsemenov/PhotoSwipe/blob/master/LICENSE)          |
-| [Normalize.css](https://github.com/necolas/normalize.css)        | [MIT](https://github.com/necolas/normalize.css/blob/master/LICENSE.md)       |
-| [Node Vibrant](https://github.com/Vibrant-Colors/node-vibrant)   | [MIT](https://github.com/Vibrant-Colors/node-vibrant/blob/master/LICENSE.md) |
-| [Tabler icons](https://github.com/tabler/tabler-icons)           | [MIT](https://github.com/tabler/tabler-icons/blob/master/LICENSE)            |
-| [jonsuh/hamburgers](https://github.com/jonsuh/hamburgers)        | [MIT](https://github.com/jonsuh/hamburgers/blob/master/LICENSE)              |
-| [lepture/yue.css](https://github.com/lepture/yue.css)            | MIT                                                                          |
-| [Typlog](https://typlog.com/)                                    | The author gave me the permission                                            |
-| [xieranmaya/blog#6](https://github.com/xieranmaya/blog/issues/6) | -                                                                            |
+## 注意事项 / Notice
 
-### References
-Some references that I took while building this theme:
-
-| Project                                                                     | Licence                                                                  |
-| --------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| [artchen/hexo-theme-element](https://github.com/artchen/hexo-theme-element) | [MIT](https://github.com/artchen/hexo-theme-element/blob/master/LICENSE) |
-| [MunifTanjim/minimo](https://github.com/MunifTanjim/minimo)                 | [MIT](https://github.com/MunifTanjim/minimo/blob/master/LICENSE)         |
+- 禁止伪造游玩成绩、官方内容等  
+  Forgery of game results, official content, and related materials is strictly prohibited.
+- COMBO 处文本必须与 `COMBO` 有明显区分  
+  The text in the COMBO section must be clearly distinct from `COMBO` itself
