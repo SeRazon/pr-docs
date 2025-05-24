@@ -13,7 +13,7 @@ hero:
   actions:
     - theme: brand
       text: 开始使用
-      link: /guide/getting-started
+      link: /guide
     - theme: alt
       text: QQ群聊
       link: https://qm.qq.com/q/F23KGHLNsY
