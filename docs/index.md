@@ -15,7 +15,7 @@ hero:
       text: 开始使用
       link: /guide/getting-started
     - theme: alt
-      text: 获取软件（QQ群聊）
+      text: QQ群聊
       link: https://qm.qq.com/q/F23KGHLNsY
     - theme: alt
       text: 在 GitHub 上查看
