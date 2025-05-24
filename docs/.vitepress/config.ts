@@ -36,8 +36,8 @@ export default defineConfig({
         },
 
         nav: [
-            { text: 'Guide', link: '/guide/' },
-            { text: 'Config', link: '/config/' },
+            { text: '指南', link: '/guide/' },
+            //{ text: 'Config', link: '/config/' },
         ],
 
         socialLinks: [
