@@ -2,7 +2,7 @@
 
 由HLMC离开等人基于 **prpr** 项目开发的渲染器的说明文档。
 
-![Phi Recorder Banner](arts/banner.png)
+![Phi Recorder Banner](/docs/arts/banner.png)
 
 快 简 轻 便  
 Fast Simple Lightweight Convenient
