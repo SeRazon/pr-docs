@@ -1,4 +1,4 @@
-# 关于 Phigros Recorder
+# 关于 Phi Recorder
 
 ![Phi Recorder Banner](../arts/banner.png)
 
