@@ -79,6 +79,13 @@ function sidebarGuide() {
                 { text: 'RPE 绑定', link: '/guide/rpe-bind' },
             ]
         },
+        {
+            text: '接口',
+            collapsible: true,
+            items: [
+                { text: '参数', link: '/guide/args' },
+            ]
+        },
         /*{
             text: 'Config',
             collapsible: true,
