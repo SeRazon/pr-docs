@@ -9,8 +9,9 @@
 
 ### 设置环境变量 (推荐)
 
-1. 将 `ffmpeg.exe` 所在的目录添加到环境变量 `Path` 中
-2. 打开命令行，输入 `ffmpeg -version`，如果出现版本信息，则说明环境变量设置成功
+1. 下载 FFmpeg-full 并解压到合适的地方，例如 `C:/Program Files/ffmpeg`
+2. 将 `ffmpeg.exe` 所在的目录添加到环境变量 `Path` 中
+3. 打开命令行，输入 `ffmpeg -version`，如果出现版本信息，则说明环境变量设置成功
 
 ### 复制进软件安装目录
 
