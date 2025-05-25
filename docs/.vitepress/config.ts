@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
     lang: 'zh-cn',
     title: 'Phi Recorder',
-    description: '你的下一个渲染器，何必是渲染器。',
+    description: '你的下一个渲染器',
     lastUpdated: true,
 
     head: [
@@ -26,7 +26,7 @@ export default defineConfig({
 
         footer: {
             message: "Documentation released under the MIT License, all rights reserved.",
-            copyright: "Copyright © 2025 - Present Phi Recorder Team",
+            copyright: "Copyright © 2025 - Phi Recorder",
         },
 
         sidebar: {
@@ -46,7 +46,7 @@ export default defineConfig({
 
         editLink: {
             pattern: 'https://github.com/SeRazon/pr-docs/edit/master/docs/:path',
-            text: 'Edit this page on GitHub'
+            text: '在 GitHub 上编辑此页面'
         },
 
         outline: [2, 3],

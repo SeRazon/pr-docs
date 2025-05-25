@@ -2,11 +2,11 @@
 layout: home
 
 title: Phi Recorder
-titleTemplate: 你的下一个渲染器，何必是渲染器。
+titleTemplate: 你的下一个渲染器
 
 hero:
   name: Phi Recorder
-  text: 你的下一个渲染器，何必是渲染器。
+  text: 你的下一个渲染器
   image:
     src: /logo.png
     alt: Phi Recorder
