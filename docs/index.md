@@ -13,7 +13,7 @@ hero:
   actions:
     - theme: brand
       text: 开始使用
-      link: /guide
+      link: /guide/
     - theme: alt
       text: QQ群聊
       link: https://qm.qq.com/q/F23KGHLNsY
@@ -23,15 +23,15 @@ hero:
 
 features:
   - title: 快
-    details: 得利于 prpr 内核的高性能，结合 GPU 绘制和缓冲区技术让视频的渲染快人一步。
+    details: 利用了高性能内核，结合 GPU 绘制和缓冲技术让视频的渲染快人一步
     icon: ⚡
   - title: 简
-    details: 上手轻松，软件简洁，渲染方便。
-    icon: 📑
+    details: 上手轻松，界面简洁，渲染方便
+    icon: ✅
   - title: 轻
-    details: 充分利用 FFmpeg，结合 HEVC 编码和动态码率技术，实现高效视频压缩，使文件体积大幅缩小，同时保持尽可能清晰的画质，确保流畅预览与分享体验。
+    details: 利用 HEVC 编码和动态码率，使文件体积较小的同时保持清晰的画质，确保流畅预览与分享体验
     icon: 🛫
   - title: 便
-    details: 对音频渲染进行了专项优化，对音乐和打击音单独调整，控制动态范围，使音乐在绝大多数情况都可以保持 Hi-Fi 级水准，同时也能保证打击音的清晰。
+    details: 对音频渲染进行了专项优化，对音乐和打击音单独调整，控制动态范围，使音乐在绝大多数情况都可以保持 Hi-Fi 级水准，同时也能保证打击音的清晰
     icon: 🛣️
 ---

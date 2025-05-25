@@ -66,22 +66,20 @@ function sidebarGuide() {
             collapsible: true,
             items: [
                 { text: '关于 Phi Recorder', link: '/guide/' },
-                //{ text: 'Getting Started', link: '/guide/getting-started' },
+                { text: '快速开始', link: '/guide/getting-started' },
                // { text: 'Modify Theme', link: '/guide/modify-theme' }
             ]
         },
-        /*{
-            text: 'Writing',
+        {
+            text: '基础',
             collapsible: true,
             items: [
-                { text: 'Markdown', link: '/writing/markdown' },
-                {
-                    text: 'Frontmatter Configs', link: '/writing/frontmatter'
-                },
-                { text: 'Shortcodes', link: '/writing/shortcodes' },
+                { text: '谱面信息', link: '/guide/chart-info' },
+                { text: '渲染设置', link: '/guide/render-config' },
+                { text: 'RPE 绑定', link: '/guide/rpe-bind' },
             ]
         },
-        {
+        /*{
             text: 'Config',
             collapsible: true,
             items: [
