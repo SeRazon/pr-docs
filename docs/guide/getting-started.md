@@ -2,7 +2,7 @@
 
 ## 下载
 
-- [Phi Recorder](https://github.com/2278535805/phigros-recorder/releases) (软件本体)
+- [Phi Recorder](https://github.com/2278535805/Phi-Recorder/releases) (软件本体)
 - [FFmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/latest) (渲染视频依赖)
 
 ## 依赖安装
