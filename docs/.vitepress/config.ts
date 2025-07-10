@@ -74,16 +74,17 @@ function sidebarGuide() {
             text: '基础',
             collapsible: true,
             items: [
-                { text: '谱面信息', link: '/guide/chart-info' },
-                { text: '渲染设置', link: '/guide/render-config' },
-                { text: 'RPE 绑定', link: '/guide/rpe-bind' },
+                { text: '谱面信息', link: '/guide/base/chart-info' },
+                { text: '渲染设置', link: '/guide/base/render-config' },
+                { text: 'RPE 绑定', link: '/guide/base/rpe-bind' },
             ]
         },
         {
             text: '接口',
             collapsible: true,
             items: [
-                { text: '参数', link: '/guide/args' },
+                { text: '参数', link: '/guide/connect/args' },
+                { text: '资源包', link: '/guide/connect/res-pack' },
             ]
         },
         /*{
