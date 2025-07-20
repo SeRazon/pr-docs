@@ -19,7 +19,8 @@
 可选 (不存在将使用默认)
 
 - `click.ogg` `drag.ogg` `flick.ogg` 对应音符的打击音效，注意采样率在 `Phi Recorder` 中必须为 48000Hz
-- `ending.ogg` 结算界面背景音乐。
+- `ending.ogg` 默认结算音乐
+- `ending_ap.ogg` `ending_fc.ogg` `ending_v.ogg` `ending_s.ogg` `ending_a.ogg` `ending_b.ogg` `ending_c.ogg` 不同成绩的结算音乐，若不存在将使用 `ending.ogg`
 
 ### 配置文件
 
