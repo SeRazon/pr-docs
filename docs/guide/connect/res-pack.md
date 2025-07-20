@@ -44,10 +44,10 @@ holdRepeat: false
 holdCompact: false
 hitFxTinted: true
 LineTinted: true
-colorPerfectFx: (1.0, 0.9, 0.65, 0.9)
-colorGoodFx: (0.70, 0.9, 1.0, 0.9)
-colorPerfectLine: (1.0, 1.0, 0.7, 1.0)
-colorGoodLine: (0.65, 0.94, 1.0, 1.0)
+colorPerfectFx: [1.0, 0.9, 0.65, 0.9]
+colorGoodFx: [0.70, 0.9, 1.0, 0.9]
+colorPerfectLine: [1.0, 1.0, 0.7, 1.0]
+colorGoodLine: [0.65, 0.94, 1.0, 1.0]
 ```
 
 - `name` 资源包的名字
@@ -69,7 +69,7 @@ colorGoodLine: (0.65, 0.94, 1.0, 1.0)
 - `holdCompact` (布尔值，默认 `false`)  是否把 Hold 的头部和尾部与 Hold 中间重叠 (将锚点居中)。还是用上面的图，如果不开启 `holdCompact`，效果就会是左边第一张图，Hold 的头尾是和中间隔开的；而右边两张图都是开启了 `holdCompact` 的效果
 - `hitFxTinted` (布尔值，默认 `true`)  打击特效是否着色
 - `LineTinted` (布尔值，默认 `true`)  判定线是否着色
-- `colorPerfectFx` AP (All Perfect) 情况下的打击特效颜色 `(R, G, B, A)` 内容均为 `0.0..1.0` 的 `浮点数`
+- `colorPerfectFx` AP (All Perfect) 情况下的打击特效颜色 `[R, G, B, A]` 内容均为 `0.0..1.0` 的 `浮点数`
 - `colorGoodFx` FC (Full Combo)  情况下的打击特效颜色
 - `colorPerfectLine` AP (All Perfect)  情况下的判定线颜色
 - `colorGoodLine` FC (Full Combo)  情况下的判定线颜色
