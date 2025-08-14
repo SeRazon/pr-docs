@@ -14,7 +14,7 @@
 - `drag.png` 和 `drag_mh.png`：Drag 音符的皮肤
 - `flick.png` 和 `flick_mh.png`：Flick 音符的皮肤
 - `hold.png` 和 `hold_mh.png`：Hold 音符的皮肤
-- `hit_fx.png`：打击特效图片
+- `hit_fx.png`：打击特效图片, 必须为透明背景, 除特殊需求外图像色彩均为灰度
 
 可选 (不存在将使用默认)
 
