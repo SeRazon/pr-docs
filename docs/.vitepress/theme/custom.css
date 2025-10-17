@@ -4,3 +4,24 @@
     --vp-c-brand-3: var(--vp-c-green-3);
     --vp-c-brand-soft: var(--vp-c-green-soft);
 }
+/* 分隔符样式 */
+.footer-sep {
+  margin: 0 8px;
+  color: #999;
+}
+
+/* 备案链接：图标+文字水平居中对齐 */
+.beian-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;          /* 图标与文字间距 */
+  line-height: 1;    /* 避免竖直方向看着发飘 */
+}
+
+/* 统一图标尺寸，并覆盖主题可能的默认块级/外边距 */
+.beian-link img {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  margin: 0;
+}
