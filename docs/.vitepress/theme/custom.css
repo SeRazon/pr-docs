@@ -4,24 +4,35 @@
     --vp-c-brand-3: var(--vp-c-green-3);
     --vp-c-brand-soft: var(--vp-c-green-soft);
 }
-/* 分隔符样式 */
-.footer-sep {
-  margin: 0 8px;
-  color: #999;
-}
-
-/* 备案链接：图标+文字水平居中对齐 */
-.beian-link {
+/* 整行容器：保证一整行的垂直居中和一致的行高 */
+.VPFooter .message .beian-row {
   display: inline-flex;
   align-items: center;
-  gap: 6px;          /* 图标与文字间距 */
-  line-height: 1;    /* 避免竖直方向看着发飘 */
+  gap: 8px;
+  line-height: 1;
+  vertical-align: middle; /* 让整行容器在段落行盒中垂直居中 */
 }
 
-/* 统一图标尺寸，并覆盖主题可能的默认块级/外边距 */
-.beian-link img {
+/* 单个链接：图标与文字横向对齐 */
+.VPFooter .message .beian-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  line-height: 1;
+  vertical-align: middle;
+  text-decoration: none; /* 可选：保持主题默认 */
+}
+
+/* 图标统一尺寸，避免比文字高 */
+.VPFooter .message .beian-icon {
   width: 16px;
   height: 16px;
   display: inline-block;
   margin: 0;
+}
+
+/* 分隔符样式 */
+.VPFooter .message .footer-sep {
+  color: var(--vp-c-text-3, #999);
+  margin: 0 6px;
 }
