@@ -25,18 +25,20 @@ export default defineConfig({
     logo: '/logo.png',
 
     footer: {
-      message: [
-        'Documentation released under the MIT License, all rights reserved.',
-        '<br>',
-        '<a class="beian-link" href="https://beian.mps.gov.cn/#/query/webSearch?code=36012202000590" target="_blank" rel="noopener noreferrer">',
-        '<img src="https://www.beian.gov.cn/img/ghs.png" alt="公安备案图标">',
-        '<span>赣公网安备36012202000590号</span>',
-        '</a>',
-        '<span class="footer-sep">|</span>',
-        '<a class="beian-link" href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">赣ICP备2025074193号</a>'
-      ].join(''),
+  message: `
+    Documentation released under the MIT License, all rights reserved.
+    <br>
+    <span class="beian-row">
+      <a class="beian-link" href="https://beian.mps.gov.cn/#/query/webSearch?code=36012202000590" target="_blank" rel="noopener noreferrer">
+        <img class="beian-icon" src="https://www.beian.gov.cn/img/ghs.png" alt="公安备案图标">
+        <span>赣公网安备36012202000590号</span>
+      </a>
+      <span class="footer-sep">|</span>
+      <a class="beian-link" href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">
+        赣ICP备2025074193号
+      </a></span>`,
       copyright: 'Copyright © 2025 - Phi Recorder'
-    },
+    }
 
     sidebar: {
       '/guide/': sidebarGuide(),
