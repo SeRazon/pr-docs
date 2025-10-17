@@ -38,7 +38,7 @@ export default defineConfig({
         赣ICP备2025074193号
       </a></span>`,
       copyright: 'Copyright © 2025 - Phi Recorder'
-    }
+    },
 
     sidebar: {
       '/guide/': sidebarGuide(),
