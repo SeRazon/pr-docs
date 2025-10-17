@@ -33,7 +33,7 @@ export default defineConfig({
         '<span>赣公网安备36012202000590号</span>',
         '</a>',
         '<span class="footer-sep">|</span>',
-        '<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">赣ICP备2025074193号</a>'
+        '<a class="beian-link" href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">赣ICP备2025074193号</a>'
       ].join(''),
       copyright: 'Copyright © 2025 - Phi Recorder'
     },
