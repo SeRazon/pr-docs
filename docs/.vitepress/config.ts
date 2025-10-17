@@ -28,11 +28,11 @@ export default defineConfig({
       message: [
         'Documentation released under the MIT License, all rights reserved.',
         `<br>`,
-        `<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">赣ICP备2025074193号</a>`,
-        `<span style="margin: 0 8px; color: #999">|</span>`,
         `<a href="https://beian.mps.gov.cn/#/query/webSearch?code=36012202000590" target="_blank" rel="noopener noreferrer">`,
         `<img src="https://www.beian.gov.cn/img/ghs.png" alt="公安备案图标" style="width:16px;height:16px;margin-right:4px;vertical-align:-3px;">`,
         `赣公网安备36012202000590号</a>`
+        `<br>`
+        `<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">赣ICP备2025074193号</a>`,
       ].join(''),
       copyright: 'Copyright © 2025 - Phi Recorder'
     },
