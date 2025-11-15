@@ -79,6 +79,7 @@ function sidebarGuide() {
         { text: '快速开始', link: '/guide/getting-started' },
       ]
     },
+
     {
       text: '基础',
       collapsible: true,
@@ -88,6 +89,7 @@ function sidebarGuide() {
         { text: 'RPE 绑定', link: '/guide/base/rpe-bind' },
       ]
     },
+
     {
       text: '接口',
       collapsible: true,
@@ -96,5 +98,7 @@ function sidebarGuide() {
         { text: '资源包', link: '/guide/connect/res-pack' },
       ]
     },
+
+    { text: '别点', link: '/wtfbro' },
   ]
 }
