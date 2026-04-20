@@ -37,7 +37,7 @@ export default defineConfig({
       <a class="beian-link" href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">
         赣ICP备2025074193号
       </a></span>`,
-      copyright: 'Copyright © 2025 - Phi Recorder'
+      copyright: 'Copyright © 2026 - Phi Recorder'
     },
 
     sidebar: {
