@@ -9,11 +9,16 @@
 
 ### 设置环境变量 (推荐)
 
-1. 下载 FFmpeg-full 并解压到合适的地方，例如 `C:/Program Files/ffmpeg`
+1. 下载 FFmpeg 并解压到合适的地方，例如 `C:/Program Files/ffmpeg`
 2. 将 `ffmpeg.exe` 所在的目录添加到环境变量 `Path` 中
 3. 打开命令行，输入 `ffmpeg -version`，如果出现版本信息，则说明环境变量设置成功
 
-### 复制进软件安装目录 (备选)
+### 指定路径 (备选)
+
+1. 下载 FFmpeg 并解压到合适的地方，例如 `C:/Program Files/ffmpeg`
+2. 打开软件设置界面，在 `FFmpeg 路径` 中选中 `ffmpeg.exe`
+
+### 复制进安装目录 (备选)
 
 1. 将 `ffmpeg.exe` 以及其余的库 复制到 `Phi Recorder` 软件安装目录
 
@@ -25,5 +30,5 @@
 ## 常见问题
 
 - 主程序无法显示但可以正常打开谱面文件预览，也可以使用命令行正常发起渲染  
-  请检查 Edge 浏览器是否能够正常运行，可尝试重装 Edge 浏览器 或 自行安装 WebView2  
-  [下载 Edge](https://www.microsoft.com/zh-cn/edge/download)
+  1. 清除 WebView 缓存文件，打开 `%LOCALAPPDATA%\com.hlmc.phi.recorder` 文件夹，删除所有文件
+  2. 检查 Edge 浏览器是否能够正常运行，可尝试重装 [Edge 浏览器](https://www.microsoft.com/zh-cn/edge/download) 或 重新安装 WebView2

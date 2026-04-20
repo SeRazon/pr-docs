@@ -6,7 +6,7 @@ titleTemplate: 你的下一个渲染器
 
 hero:
   name: Phi Recorder
-  text: 渲染器, 何必只能渲染
+  text: 优雅 & 高效
   image:
     src: /logo.png
     alt: Phi Recorder
@@ -25,16 +25,16 @@ hero:
       link: https://github.com/2278535805/Phi-Recorder
 
 features:
-  - title: 快
-    details: 让视频的渲染快人一步
+  - title: 高效
+    details: 性能强悍，不惧物量
     icon: ⚡
-  - title: 简
-    details: 上手轻松，界面简洁，使用快捷
+  - title: 优雅
+    details: 快速上手，简单易用
     icon: ✅
-  - title: 轻
-    details: 充分利用编码器和动态码率，文件体积较小的同时保持清晰的画质，确保流畅预览与分享体验
+  - title: 轻松
+    details: 预设配置即可应对各种场景
     icon: 🛫
-  - title: 全
-    details: 功能全面，轻松应对各种场景，满足你的各种需求
+  - title: 全面
+    details: 功能丰富，满足各种需求
     icon: 🛣️
 ---
