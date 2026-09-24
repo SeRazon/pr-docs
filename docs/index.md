@@ -16,7 +16,7 @@ hero:
       link: /guide/getting-started
     - theme: alt
       text: 下载
-      link: https://download.hlmc.top/d/download/latest.msi?sign=CiXmu3ByS3YAsvhtz7SWX6OEUcrrE_zEf5iYrw9vzAs=:0
+      link: https://download.hlmc.top/sd/phi-recorder
     - theme: alt
       text: QQ群聊
       link: https://qm.qq.com/q/F23KGHLNsY
