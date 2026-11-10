@@ -22,7 +22,7 @@ hero:
       link: https://qm.qq.com/q/F23KGHLNsY
     - theme: alt
       text: 在 GitHub 上查看
-      link: https://github.com/2278535805/Phi-Recorder
+      link: https://github.com/AntiLeave/Phi-Recorder
 
 features:
   - title: 高效
